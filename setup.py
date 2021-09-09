@@ -37,7 +37,7 @@ setup_params = dict(
         ':python_version=="2.6"': ['importlib'],
     },
     setup_requires=[
-        'setuptools_scm==5.0.2',
+        'setuptools-scm==5.0.2',
     ] + pytest_runner + sphinx + wheel,
     tests_require=[
         'pytest>=2.8',
