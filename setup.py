@@ -32,12 +32,13 @@ setup_params = dict(
     url="https://github.com/jaraco/" + name,
     py_modules=['path', 'test_path'],
     install_requires=[
+        'setuptools-scm==5.0.2',
     ],
     extras_require={
         ':python_version=="2.6"': ['importlib'],
     },
     setup_requires=[
-        'setuptools-scm==5.0.2',
+        #'setuptools-scm==5.0.2',
     ] + pytest_runner + sphinx + wheel,
     tests_require=[
         'pytest>=2.8',
