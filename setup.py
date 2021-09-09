@@ -22,6 +22,7 @@ description = 'A module wrapper for os.path'
 
 setup_params = dict(
     name=name,
+    version='8.2.3',
     use_scm_version=True,
     author="Jason Orendorff",
     author_email="jason.orendorff@gmail.com",
