@@ -31,6 +31,7 @@ setup_params = dict(
     description=description or name,
     long_description=long_description,
     url="https://github.com/jaraco/" + name,
+    packages=setuptools.find_packages(),
     py_modules=['path', 'test_path'],
     install_requires=[
         'setuptools-scm==5.0.2',
